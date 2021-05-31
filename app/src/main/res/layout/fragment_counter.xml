@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background = "@color/colorPrimary"
+    tools:context="com.sabitpkcmnr.mastercounterpro.MainActivity">
+
+    <TextView
+        android:layout_width="warp_content"
+        android:layout_height="warp_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:textSize="100sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/tx"
+        android:layout_centerVertical="true"
+        android:laout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="warp_content"
+        android:layout_height="warp_content"
+        android:text="+"
+        android:id="@+id/bt"
+        android:textSize="30sp"
+        android:background="#595959"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
